@@ -24,6 +24,7 @@ func Test_stopWords(t *testing.T) {
 		"for",
 		"be",
 		"was",
+		"also",
 	}
 	for _, word := range knownTrueStopwords {
 		if isStopWord(word) == false {

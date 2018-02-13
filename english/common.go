@@ -205,7 +205,7 @@ func stemSpecialWord(word string) (stemmed string) {
 //
 func isStopWord(word string) bool {
 	switch word {
-	case "a", "about", "above", "after", "again", "against", "all", "am", "an",
+	case "a", "about", "above", "after", "again", "against", "all", "also" , "am", "an",
 		"and", "any", "are", "as", "at", "be", "because", "been", "before",
 		"being", "below", "between", "both", "but", "by", "can", "did", "do",
 		"does", "doing", "don", "down", "during", "each", "few", "for", "from",
